@@ -1,0 +1,137 @@
+.padre{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.box1{
+    background-color: rgb(102, 176, 127);
+    border-style: dashed;
+    border-color: rgb(73, 8, 105);
+    font-size: 40px;
+    grid-column: 1/5;
+}
+.box2{
+    background-color: rgb(54, 213, 40);
+    border-style: dashed;
+    border-color: rgb(20, 75, 185);
+    font-size: 40px;
+    grid-column: 1/3;
+}
+.box3{
+    background-color: rgb(55, 179, 55);
+    border-style: dashed;
+    border-color: rgb(46, 39, 124);
+    font-size: 40px;
+    grid-column: 3/4;
+}
+.box4{
+    background-color: rgb(10, 161, 5);
+    border-style: dashed;
+    border-color: rgb(39, 14, 51);
+    font-size: 40px;
+    grid-column: 4/5;
+}
+.box5{
+    background-color: rgb(202, 221, 96);
+    border-style: dashed;
+    border-color: rgb(152, 8, 95);
+    font-size: 40px;
+    grid-column: 1/2;
+}
+.box6{
+    background-color: rgba(183, 180, 36, 0.529);
+    border-style: dashed;
+    border-color: rgb(20, 67, 95);
+    font-size: 40px;
+    grid-column: 2/5;
+}
+.box7{
+    background-color: rgb(222, 233, 119);
+    border-style: dashed;
+    border-color: rgb(23, 181, 96);
+    font-size: 40px;
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+.box8{
+    background-color: rgb(13, 135, 137);
+    border-style: dashed;
+    border-color: rgb(11, 0, 16);
+    font-size: 40px;
+    grid-column: 3/5;
+}
+.box9{
+    background-color: rgb(97, 223, 232);
+    border-style: dashed;
+    border-color: rgb(12, 131, 111);
+    font-size: 40px;
+    grid-column: 3/5;
+}
+#separador{
+    width: 300px;
+    height: 30px;
+}
+.flex-container{
+    background-color: aquamarine ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.box{
+    display: flex;
+    margin: 15px;
+    height: 20em;
+    border: 1px solid black;
+    background-color: brown;
+}
+
+.cost{
+    flex-grow: 1;
+}
+
+.flex-box{
+    flex-grow: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-2{
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+    height: 50%;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_2{
+    background-color: aqua;
+    border: 1px black solid;
+    height: 50%;
+    width: 45%;
+    margin: 5px;
+}
+
+.principal_box{
+    width: 85%;
+    height: 25%;
+    background-color: aqua;
+    border: 1px black solid;
+}
+.boot{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    justify-content: space-between;
+
+}
